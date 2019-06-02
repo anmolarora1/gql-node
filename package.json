@@ -1,0 +1,27 @@
+{
+  "name": "gql-node",
+  "version": "1.0.0",
+  "description": "gql app server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js --exec babel-node --presets babel-preset-env",
+    "test": "test"
+  },
+  "author": "anmolarora1",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "express": "^4.17.0",
+    "express-graphql": "^0.8.0",
+    "graphql": "^14.3.0",
+    "pg": "^7.11.0",
+    "sequelize": "^5.8.6"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "eslint-plugin-graphql": "^3.0.3"
+  }
+}
